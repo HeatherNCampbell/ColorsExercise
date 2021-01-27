@@ -1,0 +1,49 @@
+h1 {
+    color: rebeccapurple;
+    background-color:red;
+}
+h2 {
+    color: plum;
+}
+h3 {
+    color:salmon;   
+}
+h4 {
+    color:sandybrown;
+    background-color: rgba(0, 0, 255,.9);
+}
+h5 {
+    background-color: lime;
+    color:orangered;
+}
+h6 {
+    background-color: #ffff66;
+    color:red;
+}
+p {
+    background-color: rgb(255, 0, 255);
+    color: black;
+}
+h1{
+    color: #00ab45;
+    background-color:red;
+}
+h2{
+   color: rgb(102, 0, 202);
+   background-color: #ff6600;
+}
+h3{
+    background-color: rgb(0, 102, 255);
+    color: rgba(45, 200, 150, .5);
+}
+li:first-child {
+    color: hotpink;
+}
+li:last-child{
+    background-color: peachpuff;
+}
+li:not(:nth-child(2)){
+    border-style:solid;
+    border-color: green;
+    border-width: 5px;
+}
